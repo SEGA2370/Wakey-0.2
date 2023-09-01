@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="#212327"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/view"
+            />
+        <TextView
+            android:id="@+id/skip3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Start a healthy life setup your goal get motivated and achieve all you success you deserve."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:text="hope to take the courage to pursue your dreams"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                app:cardBackgroundColor="#848384"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="180dp"
+                app:cardCornerRadius="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                app:cardBackgroundColor="#848384"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                app:cardBackgroundColor="#944EF5"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="50dp"/>
+
+        </LinearLayout> <!--Dots-->
+
+        <Button
+            android:id="@+id/find_more3"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="20dp"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:backgroundTint="#AC25ED"/>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

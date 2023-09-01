@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212327"
+    tools:context=".SignupPage">
+
+
+    <TextView
+        android:id="@+id/signup_page_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hii There!!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/signup_page_text2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to wakey one stop solution for healthy life"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/signup_page_text1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="Email"
+        android:background="@drawable/input_custom"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/signup_page_text2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/signup_button_password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:background="@drawable/input_custom"
+        android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+        android:padding="10dp"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/signup_username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/recover_password_signup"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="By signing up you agree to Terms &amp; conditions of Wakey app."
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/signup_button_password"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/signup_button_password"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Signup"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/recover_password_signup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"
+        android:backgroundTint="#C847F4"/>
+
+    <LinearLayout
+        android:id="@+id/signup_view"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/signup_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:background="#797C81"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="or"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <View
+            android:layout_width="140dp"
+            android:layout_height="1dp"
+            android:background="#797C81"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/google_links_signup"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_view">
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/apple"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="1dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/apple"
+                android:contentDescription="Apple Button"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/google"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="1dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/google"
+                android:contentDescription="Google Button"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/facebook"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="10dp"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="1dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/fb1"
+                android:contentDescription="Facebook Button"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/create_account_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Already have an account?"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/google_links_signup" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="88dp"
+        android:text="Signin"
+        android:textColor="#7F51F5"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/create_account_signup"
+        app:layout_constraintTop_toBottomOf="@id/google_links_signup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

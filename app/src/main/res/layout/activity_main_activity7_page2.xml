@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212327"
+    tools:context=".MainActivity7Page2">
+
+    <LinearLayout
+        android:id="@+id/page_7_sheet2_bar_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Activity"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Streaks"
+            android:textColor="#AB4BF4"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/proficon"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"/>
+
+    </LinearLayout> <!--Bar 1-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/page_7_sheet2_bar_1"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#212327"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/nav_home_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/homedef"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_flame_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/flamepink"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_alarm_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/alarm"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_profile_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+
+
+    </LinearLayout><!--Nav Bar-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

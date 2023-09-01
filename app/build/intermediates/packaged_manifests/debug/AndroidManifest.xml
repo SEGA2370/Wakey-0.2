@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.wakey"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="33" />
+
+    <dist:module dist:instant="true" />
+
+    <permission
+        android:name="com.example.wakey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.wakey.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Wakey" >
+        <activity
+            android:name="com.example.wakey.MainCreateProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainAlarmSet"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.Subscribe"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.SignupPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.SigninPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.SignupFirstPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.Notification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.ThemePage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wakey.FeedbackPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.AlarmStop"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.wakey.MainActivity7Page2"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.wakey.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

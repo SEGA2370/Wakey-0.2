@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212327"
+    tools:context=".Notification">
+
+    <LinearLayout
+        android:id="@+id/notify_page_close"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout><!--Notification-->
+
+    <ImageButton
+        android:id="@+id/close_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/close"
+        app:layout_constraintStart_toEndOf="@id/notify_page_close"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/notify_diamond"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#4B4B4B"
+        app:layout_constraintTop_toBottomOf="@id/notify_page_close"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginLeft="2.5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradientnotify">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/diamondnotifi"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="22dp"/>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Congrats, You have achieved more than 1k strak recently"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="310dp"
+            android:text="1h ago"
+            android:textColor="#DFDFDF" />
+
+
+    </com.google.android.material.card.MaterialCardView> <!--Diamond Notify-->
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#4B4B4B"
+        app:layout_constraintTop_toBottomOf="@id/notify_diamond"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="12.5dp"
+            android:layout_marginLeft="2.5dp"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_second">
+
+                <ImageButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/alarmnotifi"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="22dp"/>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="You have added new alarm the ring will stop once you start walking for atleast 1min"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="315dp"
+            android:text="1h ago"
+            android:textColor="#DFDFDF" />
+
+
+    </com.google.android.material.card.MaterialCardView> <!--2nd Notification-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

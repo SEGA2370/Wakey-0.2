@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTimePickerStyle" parent="Widget.MaterialComponents.TimePicker">
+        <item name="android:timePickerMode">spinner</item> <!-- Use the spinner mode -->
+        <item name="android:timePickerStyle">@style/CustomTimePicker.Widget</item>
+    </style>
+
+    <style name="CustomTimePicker.Widget" parent="android:Widget.Material.TimePicker">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+</resources>

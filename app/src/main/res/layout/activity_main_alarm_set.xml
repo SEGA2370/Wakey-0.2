@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAlarmSet">
+
+    <LinearLayout
+        android:id="@+id/alarm_set"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="#964DF4"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Set Alarm"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Save"
+            android:textColor="#964DF4"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alarm_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Alarm Name  "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:drawableEnd="@drawable/pencil"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/alarm_set"
+        app:layout_constraintStart_toStartOf="@id/vibrate"/>
+
+    <TimePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/alarm_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/alarm_repeat"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Repeat"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:drawableEnd="@drawable/baseline_keyboard_arrow_down_24"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/week"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/alarm_repeat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_button"
+            android:text="Mon"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_button"
+            android:text="Tue"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@id/monday"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_button"
+            android:text="Wed"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@id/tuesday"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_button"
+            android:text="Thu"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rounded_button"
+            android:text="Fri"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@id/monday"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/round_button2"
+            android:text="Wed"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@id/tuesday"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="42dp"
+            android:layout_height="32dp"
+            android:background="@drawable/round_button2"
+            android:text="Sun"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:layout_toEndOf="@id/tuesday"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bluebird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/week"
+        app:layout_constraintTop_toBottomOf="@id/week"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bluebird"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/fi_rr_angle_small_right"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/seekbarcolor"
+        app:layout_constraintTop_toBottomOf="@id/bluebird"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/seekbar"
+        android:text="Vibrate"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/seekbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/bluebird"
+        app:layout_constraintStart_toStartOf="@+id/bluebird"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Switch
+        android:id="@+id/vibrate_switch"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/seekbar"
+        app:layout_constraintEnd_toEndOf="@id/seekbar"
+        />
+
+    <TextView
+        android:id="@+id/alarm_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/vibrate"
+        android:text="Preview Alarm"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="@id/seekbar" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/vibrate_switch"
+        app:layout_constraintStart_toStartOf="@id/vibrate_switch"
+        android:background="@drawable/fi_rr_angle_small_right"
+        android:layout_marginLeft="10dp"/>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

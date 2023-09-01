@@ -1,0 +1,590 @@
+[
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main_alarm_set.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main_alarm_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_alarmpopup.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\alarmpopup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frametheme2.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frametheme2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_each_item_page7.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\each_item_page7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frame2.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frame2.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_rounded_top_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\rounded_top_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_framegraph.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\framegraph.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main6.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_signup_first_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_signup_first_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_walk.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\walk.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_home_open.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\home_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_google.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_flamep7.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\flamep7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_animation_toggle_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\animation_toggle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main5.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_profpicback.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\profpicback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gradient_alarm_stop.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gradient_alarm_stop.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main_alarm_set.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main_alarm_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_round_button2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\round_button2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frame3.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frame3.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_flame.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\flame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_blank.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\xml_activity_main_scene.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\xml\\activity_main_scene.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main8.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main8.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main_activity7_page2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main_activity7_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_alarm_stop_buttborder.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\alarm_stop_buttborder.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_signup_first_page.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_signup_first_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frameplus.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frameplus.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main_create_profile.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main_create_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frametheme1.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frametheme1.png"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_signup_page.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_signup_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main7.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pencil.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pencil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_menonsunrise.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\menonsunrise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_alarm.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\alarm.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main2.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gradient_alarm_bar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gradient_alarm_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_profback.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\profback.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic4.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic4.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_custom_button.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frametheme4.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frametheme4.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic2.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic2.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_addfree.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\addfree.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gradient_second.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gradient_second.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_blank.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/blank.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_auto_delete_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_auto_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\icon.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main_activity7_page2.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main_activity7_page2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_dmwhite.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\dmwhite.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_baseline_auto_delete_24.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/baseline_auto_delete_24.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_animation_loading.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/animation_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_proficon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\proficon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_mounts.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\mounts.jpg"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main_profile.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_seekbarcolor.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\seekbarcolor.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_signin_page.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_signin_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_alarm_stop.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_alarm_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_notifications_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_notifications_24.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_theme_page.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_theme_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_flamepink.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\flamepink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_apple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\apple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_morning2_transformed_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\morning2_transformed_1.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_subscribe.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_subscribe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main3.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_group.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\group.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_navbarprofpink.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\navbarprofpink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_articles.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\articles.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main_create_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main_create_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic1.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic1.jpeg"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main4.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_morning.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\morning.png"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_alarm_stop.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_alarm_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frame1.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frame1.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gradient_bar2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gradient_bar2.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main7.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_eachitem_contacts.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\eachitem_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_alarmpink.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\alarmpink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_manas.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\manas.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_alarmmain.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\alarmmain.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_threedots.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\threedots.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_eachitem_menu.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\eachitem_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_stars.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\stars.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main5.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_semicolon.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\semicolon.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_subscribe.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_subscribe.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_alarmnotifi.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\alarmnotifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main_profile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main_profile.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main6.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_dmpink.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\dmpink.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic6.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic6.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_input_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\input_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_dmdiamond.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\dmdiamond.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gradientnotify.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gradientnotify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_diamondnotifi.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\diamondnotifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_feedback_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_feedback_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_gym.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\gym.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_buttonbackround.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\buttonbackround.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic3.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic3.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_fb1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\fb1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_theme_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_theme_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_framesent.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\framesent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic5.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic5.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_main8.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_main8.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_rounded_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\rounded_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_main3.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_view.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\view.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_page_six_first_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\page_six_first_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_subscribesun.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\subscribesun.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_homedef.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\homedef.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_signin_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_signin_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic7.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic7.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_close.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\close.xml"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/layout_activity_notification.xml.flat",
+        "source": "com.example.wakey.app-main-30:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_picamend.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\picamend.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\layout_activity_signup_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\layout\\activity_signup_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_fi_rr_angle_small_right.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\fi_rr_angle_small_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_pic8.jpeg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\pic8.jpeg"
+    },
+    {
+        "merged": "com.example.wakey.app-merged_res-28:/drawable_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "com.example.wakey.app-main-30:/drawable/baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-merged_res-28:\\drawable_frametheme3.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.0\\com.example.wakey.app-main-30:\\drawable\\frametheme3.png"
+    }
+]

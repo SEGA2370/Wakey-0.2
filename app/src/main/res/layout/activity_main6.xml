@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="#212327">
+
+    <LinearLayout
+        android:id="@+id/page_6_bar_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/manas"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manas Menon"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/baseline_location_on_24"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kolkata"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+        </LinearLayout> <!--Name & Location-->
+
+        <ImageButton
+            android:id="@+id/notification"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/baseline_notifications_24"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout> <!--Profile & Notification-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/page_6_bar_2"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toBottomOf="@+id/page_6_bar_1"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardBackgroundColor="#3C3D3F">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/semicolon"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Don't stop when you are tired STOP when you're done"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp"/>
+
+    </androidx.cardview.widget.CardView><!--Second Bar-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/page_6_bar_3"
+        android:layout_width="380dp"
+        android:layout_height="130dp"
+        app:layout_constraintTop_toBottomOf="@+id/page_6_bar_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#323233"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scheduled Alarm"
+            android:textSize="17sp"
+            android:textColor="#B14AF4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:30"
+                android:layout_marginLeft="20dp"
+                android:textSize="35sp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AM"
+                android:textSize="25sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="5dp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="120dp"/>
+
+            <ImageButton
+                android:id="@+id/popup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/threedots"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="95dp"
+            android:background="#5C5C5C">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3C3D3F"
+                android:layout_marginLeft="20dp"
+                android:text="S"
+                android:textSize="20sp" /><!--Sunday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="M"
+                android:textSize="20sp"/><!--Monday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="T"
+                android:textSize="20sp"/><!--Tuesday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="W"
+                android:textSize="20sp"/><!--Wednsday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="T"
+                android:textSize="20sp"/><!--Thursday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="F"
+                android:textSize="20sp"/><!--Friday-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#3C3D3F"
+                android:layout_marginLeft="10dp"
+                android:text="S"
+                android:textSize="20sp"/><!--Saturday-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView><!--Third Bar-->
+
+    <LinearLayout
+        android:id="@+id/page_6_bar_4"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/page_6_bar_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Activity"
+            android:textColor="#A14CF4"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/frame1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yoga"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/frame2"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steps"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FFFFFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/frame3"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calories"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout><!--Fourth Bar-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/page_6_bar_5"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/page_6_bar_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:cardCornerRadius="25dp"
+        app:cardBackgroundColor="#3C3F3D"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/stars"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Stats"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/fi_rr_angle_small_right"
+                android:layout_gravity="center"
+                android:layout_marginLeft="150dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView><!--Fitfth Bar-->
+
+    <LinearLayout
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#212327"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:id="@+id/nav_home_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/home_open"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_flame_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/flame"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_alarm_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/alarm"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+        <ImageButton
+            android:id="@+id/nav_profile_button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"/>
+
+
+
+    </LinearLayout><!--Nav Bar-->
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
